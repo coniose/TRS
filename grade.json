@@ -1,0 +1,138 @@
+[
+    {
+        "treinamentos": [
+            {
+                "treinamentos_id": 1,
+                "apelido": "INSTALAÇÕES ELETRICAS",
+                "descricao": "Treinamento de NR10",
+                "importancia": "obrigatório",
+                "local": "presencial",
+                "validade": 360
+            },
+            {
+                "treinamentos_id": 2,
+                "apelido": "NR11",
+                "descricao": "Treinamento de NR11",
+                "importancia": "obrigatório",
+                "local": "presencial",
+                "validade": 180
+            },
+            {
+                "treinamentos_id": 3,
+                "apelido": "NR12",
+                "descricao": "Treinamento de NR12",
+                "importancia": "opcional",
+                "local": "online",
+                "validade": 360
+            },
+            {
+                "treinamentos_id": 4,
+                "apelido": "NR20",
+                "descricao": "Treinamento de NR20",
+                "importancia": "opcional",
+                "local": "presencial",
+                "validade": 240
+            }
+        ]
+    },
+    {
+        "cargos": [
+            {
+                "cargo": "OPERADOR 1",
+                "area": "FC",
+                "treinamentos_id": [
+                    1,
+                    2,
+                    3
+                ]
+            },
+            {
+                "cargo": "TÉCNICO DE MANUTENÇÃO",
+                "area": "FC",
+                "treinamentos_id": [
+                    1,
+                    2,
+                    4
+                ]
+            },
+            {
+                "cargo": "OPERADOR 1",
+                "area": "BCM",
+                "treinamentos_id": [
+                    1,
+                    3
+                ]
+            },
+            {
+                "cargo": "TÉCNICO DE MANUTENÇÃO",
+                "area": "BCM",
+                "treinamentos_id": [
+                    1,
+                    4
+                ]
+            },
+            {
+                "cargo": "OPERADOR 1",
+                "area": "WIPES",
+                "treinamentos_id": [
+                    1,
+                    2
+                ]
+            },
+            {
+                "cargo": "TÉCNICO DE MANUTENÇÃO",
+                "area": "WIPES",
+                "treinamentos_id": [
+                    1,
+                    2
+                ]
+            },
+            {
+                "cargo": "OPERADOR 1",
+                "area": "ADULT",
+                "treinamentos_id": [
+                    1,
+                    3
+                ]
+            },
+            {
+                "cargo": "TÉCNICO DE MANUTENÇÃO",
+                "area": "ADULT",
+                "treinamentos_id": [
+                    1,
+                    2
+                ]
+            },
+            {
+                "cargo": "OPERADOR 1",
+                "area": "COFORM",
+                "treinamentos_id": [
+                    3,
+                    2
+                ]
+            },
+            {
+                "cargo": "TÉCNICO DE MANUTENÇÃO",
+                "area": "COFORM",
+                "treinamentos_id": [
+                    4,
+                    2
+                ]
+            },
+            {
+                "cargo": "TÉCNICO DE MANUTENÇÃO",
+                "area": null,
+                "treinamentos_id": [
+                    null
+                ]
+            },
+            {
+                "cargo": "OPERADOR 1",
+                "area": null,
+                "treinamentos_id": [
+                    null
+                ]
+            }
+        ]
+    }
+]
